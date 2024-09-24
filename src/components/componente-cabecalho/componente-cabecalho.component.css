@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-style: normal;
+    background-color: #00283C;
+    color: #FFFCD9;
+  }
+  
+  .cabecalho img {
+    max-width: 100vw;
+    height: auto;
+  }
+  
+  /* Layout para telas médias e grandes */
+  @media (min-width: 768px) {
+    .cabecalho {
+      flex-direction: row; 
+    }
+  
+    .esquerda, .direita {
+      flex: 1; /* Divide o espaço disponível igualmente */
+    }
+  }
+  
+  /* Layout para telas pequenas */
+  @media (max-width: 767px) {
+    .cabecalho {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .esquerda, .direita {
+      margin-bottom: 10px; 
+    }
+  
+    .cabecalho img {
+      max-width: 80vw; 
+    }
+  }
+  
