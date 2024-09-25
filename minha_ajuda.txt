@@ -2,6 +2,7 @@
 
 Executar o projeto é: ng serve
 ng generate component nome-do-componente
+Olhar melhor a interpolação dos objetos
 
 ----------CSS-----------------------------
 

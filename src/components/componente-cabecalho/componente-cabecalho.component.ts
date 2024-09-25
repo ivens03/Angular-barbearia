@@ -5,9 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './componente-cabecalho.component.html',
-  styleUrl: './componente-cabecalho.component.css'
+  styleUrls: ['./componente-cabecalho.component.css'] // Corrigido de 'styleUrl' para 'styleUrls'
 })
 export class ComponenteCabecalhoComponent {
-  
-  logo: string="assents/logo.jpeg";
+  logo: string = "assets/logo.jpeg"; // Corrigido o caminho da imagem
 }
+

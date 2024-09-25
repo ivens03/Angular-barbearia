@@ -7,9 +7,8 @@
 }
 
 .cabecalho {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 10px;
     font-family: "Protest Guerrilla", sans-serif;
     font-style: normal;
@@ -19,8 +18,9 @@
   
   .cabecalho img {
     max-width: 100vw;
-    height: auto;
-  }
+    height: auto; /*Ver isso*/
+    margin-bottom: .5rem;
+  }  
   
   /* Layout para telas médias e grandes */
   @media (min-width: 768px) {
@@ -28,8 +28,9 @@
       flex-direction: row; 
     }
   
-    .esquerda, .direita {
+    .elementos {
       flex: 1; /* Divide o espaço disponível igualmente */
+      margin-left: 40%;
     }
   }
   
@@ -40,7 +41,7 @@
       text-align: center; 
     }
   
-    .esquerda, .direita {
+    .elementos {
       margin-bottom: 10px; 
     }
   
