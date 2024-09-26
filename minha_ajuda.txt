@@ -1,0 +1,20 @@
+----------Angular-------------------------
+
+Executar o projeto é: ng serve
+ng generate component nome-do-componente
+Olhar melhor a interpolação dos objetos
+
+----------CSS-----------------------------
+
+:host e Shadow DOM:
+A pseudo-classe :host está diretamente relacionada ao Shadow DOM (Modelo de Objeto de Documento). 
+O Shadow DOM é uma tecnologia que permite encapsular componentes da interface do usuário, criando uma árvore de elementos HTML isolada do restante do documento.
+Quando você cria um componente personalizado usando o Shadow DOM (por exemplo, um componente de botão ou um widget), 
+o elemento raiz desse componente é representado pela pseudo-classe :host.
+
+----------Projeto---------------------------
+
+Valores das cores hexdecimal
+FFFCD9 (CREME)
+CD4553 (VERMELHO)
+00283C (AZUL)
